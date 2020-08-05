@@ -1,0 +1,102 @@
+\documentclass{article}
+\pdfpageheight 21.6cm
+\pdfpagewidth 15.15cm
+\paperheight 21.6cm
+\paperwidth 15.15cm
+
+\usepackage{times}
+\usepackage[pdftex]{graphicx}
+\usepackage[pdftex]{color}
+
+\voffset 0cm
+\textheight 21.6cm
+
+\hoffset 0cm
+\oddsidemargin-1.54cm
+\evensidemargin-1.54cm
+\textwidth 12.85cm
+
+\parindent 0cm
+
+\begin{document}
+
+\pagestyle{empty}
+% change colours ad libito but better check the result with a colour-calibrated monitor or colour tables in Sonjas office.
+\definecolor{bcol}{cmyk}{0.000,0.00,0.000,1} % background
+\definecolor{tcol}{cmyk}{0.0,0.0,0.00,0.000} % text (title, author)
+\definecolor{fcol}{cmyk}{0.00,0.00,0.000,1.000} % figure background
+\definecolor{scol}{cmyk}{0.000,0.000,0.000,0.100} % text (IMPRS, summary)
+
+\null\vspace{-5cm}
+
+\hspace*{-1.2cm}\colorbox{bcol}{\parbox[b][22cm][c]{15.2cm}{\null\hfill}}
+
+\vspace{-19.4cm}
+
+\hspace*{5mm}\begin{minipage}[t][17.5cm]{12cm}
+
+\begin{center}
+
+\fontencoding{T1}\fontfamily{phv}\fontseries{b}\fontshape{n}\fontsize{25}{30}\selectfont%you may adjust the fontsize of your title and name here (only recommended for particularly long titles and names)
+
+\textcolor{tcol}{Brightness Contrast of Solar Magnetic Elements Observed by Sunrise}%insert title
+
+\vspace{1.8cm}
+
+\colorbox{fcol}{\parbox[b][64.4mm][c]{80.3mm}{\hspace{2mm}\includegraphics[width=80mm, height=80mm]{cover_image_3.png}}}%insert path to cover figure, adjust the sizes!
+
+\vspace{1.5cm}
+
+\textcolor{tcol}{Fatima Kahil}%insert your name
+
+\vfill
+
+\fontencoding{T1}\fontfamily{phv}\fontseries{m}\fontshape{n}\fontsize{12}{15}\selectfont%you should not change the font size for the rest of the cover.
+
+\textcolor{scol}{International Max Planck Research School\\ for Solar System Science\\ at the University of G\"ottingen}
+
+\end{center}
+
+\end{minipage}
+
+\newpage
+%back cover
+
+\null\vspace{-5cm}
+
+\hspace*{-1.2cm}\colorbox{bcol}{\parbox[b][22cm][c]{15.2cm}{\null\hfill}}
+
+\vspace{-19.4cm}
+
+
+\hspace*{7mm}\begin{minipage}[t][17.5cm]{12cm}
+
+\fontencoding{T1}\fontfamily{phv}\fontseries{b}\fontshape{n}\fontsize{12}{15}\selectfont
+
+\textcolor{tcol}{Fatima Kahil:~Brightness Contrast of Solar Magnetic Elements Observed by Sunrise}%insert your name and thesis title here
+
+\vspace{0.5cm}
+
+\fontencoding{T1}\fontfamily{phv}\fontseries{m}\fontshape{n}\fontsize{12}{15}\selectfont
+
+\textcolor{scol}{
+The irradiance of the Sun is modulated on all time scales. Small-scale solar magnetic elements composed of quiet-Sun network and active region plages contribute to this modulation on solar cycle time scales. The evaluation of their contrast as a function of their magnetic field strength is an important constraint for models of solar irradiance variation. In this thesis, we improve and extend the results of earlier contrast studies taking advantage of the high resolution data delivered by the balloon-borne solar observatory Sunrise during its science flights in 2009 and 2013. In addition to the high quality of the Sunrise data, access to the UV wavelengths makes these data unique in this kind of study. In the first two parts of this thesis, we find that the contrast variation with the magnetic field strength agrees qualitatively with radiative magnetohydrodynamic simulations of the quiet Sun. In particular, at a continuum wavelength around 500\,nm, the contrast does not decrease at large field strengths, indicative of having resolved these features. In addition, the contrast  at all wavelengths in the quiet-Sun network is found to be higher than in solar plage, and the difference decreases with atmospheric height in accordance with empirical models of flux tubes. In the last part of this thesis, we make use of solar limb data observed by Sunrise to evaluate the contribution of stray light to the total point spread function of the telescope. }%insert your summary here
+
+\vfill
+
+\parbox[b]{30mm}{\includegraphics[width=30mm]{uni-edition-white.pdf}}\hfill\textcolor{scol}{ISBN 978-3-944072-68-5}%insert your ISBN here (you get your ISBN from Sonja)
+
+\end{minipage}
+
+\newpage
+%back of the book
+\null\vspace{-5cm}
+
+\hspace*{-1.2cm}\colorbox{bcol}{\parbox[b][22cm][c]{15.2cm}{\null\hfill}}
+
+\fontencoding{T1}\fontfamily{phv}\fontseries{b}\fontshape{n}\fontsize{12}{15}\selectfont%for particularly long names and titles you may change the font size, here.
+
+\vspace{-19cm}%this value has to be adjusted manually. Long title = small number (i. e. a large number with a minus sign in front) / Short title = number closer to zero! 
+\hspace*{6cm}\rotatebox{90}{\textcolor{tcol}{Fatima Kahil:~Brightness Contrast of Solar Magnetic Elements Observed by Sunrise}}%insert your name and the thesis title here.
+
+\end{document}
